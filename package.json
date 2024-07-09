@@ -18,6 +18,7 @@
     "clsx": "^2.1.1",
     "crypto": "npm:crypto-browserify",
     "crypto-browserify": "^3.12.0",
+    "gh-pages": "^6.1.1",
     "http": "^0.0.1-security",
     "https": "^1.0.0",
     "https-browserify": "^1.0.0",
@@ -33,15 +34,19 @@
     "stream": "npm:stream-browserify",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
+    "strip-ansi": "^7.1.0",
     "tailwind-merge": "^2.4.0",
     "url": "^0.11.3",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://blackchain43.github.io/solana-test-mavis",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
