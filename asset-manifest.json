@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/solana-test-mavis/static/css/main.556dbff5.css",
+    "main.js": "/solana-test-mavis/static/js/main.fb7c5d4b.js",
+    "static/media/GTFGoodSansTRIAL-Black.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Black.2ef41877b604757643e4.otf",
+    "static/media/GTFGoodSansTRIAL-Medium.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Medium.261f911956fe624ced69.otf",
+    "static/media/GTFGoodSansTRIAL-Bold.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Bold.93ad518fe84643406f31.otf",
+    "static/media/GTFGoodSansTRIAL-Regular.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Regular.82fb74ec5365968dde97.otf",
+    "static/media/GTFGoodSansTRIAL-Light.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Light.12b2ffa8dd495b27fd21.otf",
+    "static/media/GTFGoodSansTRIAL-Thin.otf": "/solana-test-mavis/static/media/GTFGoodSansTRIAL-Thin.f168895b24159de6cee6.otf",
+    "index.html": "/solana-test-mavis/index.html",
+    "main.556dbff5.css.map": "/solana-test-mavis/static/css/main.556dbff5.css.map",
+    "main.fb7c5d4b.js.map": "/solana-test-mavis/static/js/main.fb7c5d4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.556dbff5.css",
+    "static/js/main.fb7c5d4b.js"
+  ]
+}
