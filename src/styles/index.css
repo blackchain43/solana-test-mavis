@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap'); */
+
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 200;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Thin.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 300;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Light.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Regular.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 500;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Medium.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 600;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Bold.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+	font-family: 'GTFGoodSans';
+	font-style: normal;
+	font-display: swap;
+	src: url(./GoodSans/GTFGoodSansTRIAL-Black.otf) format('otf');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+body {
+	font-family: 'GTFGoodSans', sans-serif;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+	outline: none;
+}
+
+.geetest_feedback,
+.geetest_box_logo {
+	display: none !important;
+}
+
+/* @media only screen and (orientation: portrait) {
+	html {
+		width: 912px;
+	}
+} */
+
+/* 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px #1A1C35 inset !important;
+}
+
+input:autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #1A1C35 inset !important;
+	background-color: #1A1C35 !important;
+}
+
+input:-webkit-autofill {
+	-webkit-background-clip: text;
+} */
+
+/* width */
+*::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+	background: transparent;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+	display: none;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+	background: #777e9192;
+	border-radius: 1rem;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+	background: #777e91;
+}
+
+*::-webkit-scrollbar-corner {
+	display: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+	-ms-overflow-style: none !important;
+	/* IE and Edge */
+	scrollbar-width: none !important;
+	/* Firefox */
+}
+
+
+.react-time-picker__wrapper,
+.react-date-picker__wrapper {
+	border-style: none !important;
+}
+
+.react-time-picker__inputGroup__input,
+.react-date-picker__inputGroup__input {
+	outline-style: none !important;
+}
